@@ -5,19 +5,31 @@ obj/
 # Rider project files
 .idea/
 
+# Visual Studio files
+*.suo
+*.user
+*.sln.docstates
+/.vs/
+
 # User-specific files
 *.userprefs
 *.suo
 *.cache
 
-# Compiled source
-*.com
-*.class
-*.dll
+# .NET build and debug files
+bin/
+obj/
 *.exe
-*.o
-*.so
+*.pdb
+*.dll
+*.ipdb
+*.apsx
+*.apsx.cs
+*.suo
 *.cache
+*.dll.config
+*.user
+*.csproj.user
 
 # Logs and databases
 *.log
