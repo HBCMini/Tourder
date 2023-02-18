@@ -1,6 +1,0 @@
-{
-    "sonarlint.connectedMode.project": {
-        "connectionId": "HBC Sonar Cloud",
-        "projectKey": "HBCMini_Tourder"
-    }
-}
