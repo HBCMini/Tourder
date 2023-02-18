@@ -5,6 +5,9 @@ obj/
 # Rider project files
 .idea/
 
+# VS Code files
+./vscode
+
 # Visual Studio files
 *.suo
 *.user

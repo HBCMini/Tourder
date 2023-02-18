@@ -13,7 +13,11 @@ jobs:
           java-version: 1.11
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
+          fetch-depth: 0 
+          # Shallow clones should be disabled for a better relevancy of analysis
+          # It's recommended that we can enable shallow clone to reduce the running time,
+          # but it will affect the efficiency of analysis cause we're 
+          # running analysis on each PR
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
